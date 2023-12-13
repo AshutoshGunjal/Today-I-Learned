@@ -7,28 +7,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <title>Today I Learned!</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <div class="logo">
+    <div className="container">
+      <header className="header">
+        <div className="logo">
           <img
             src="logo.png"
             height="68"
             width="68"
-            alt="Today I Learned Logo"
-          />
+            alt="Today I Learned Logo" />
           <h1>Learning Wave!</h1>
         </div>
 
-        <button class="btn btn-large btn-open">Share A Fact</button>
+        <button className="btn btn-large btn-open">Share A Fact</button>
       </header>
 
-      <form class="fact-form hidden">
+      <form className="fact-form hidden">
         <input type="text" placeholder="share a fact with the world...!" />
         <span>200</span>
         <input type="text" placeholder="trsuthworthy source...!" />
@@ -38,28 +36,26 @@
           <option value="science">Science</option>
           <option value="finance">Finance</option>
         </select>
-        <button class="btn btn-large">Post</button>
+        <button className="btn btn-large">Post</button>
       </form>
 
-      <main class="main">
+      <main className="main">
         <aside>
           <ul>
             <li>
-              <button class="btn btn-all-categories">All</button>
+              <button className="btn btn-all-categories">All</button>
             </li>
             <li>
               <button
-                class="btn btn-category"
-                style="background-color: #3b82f6"
-              >
+                className="btn btn-category"
+                style="background-color: #3b82f6">
                 Technology
               </button>
             </li>
             <li>
               <button
-                class="btn btn-category"
-                style="background-color: #16a34a"
-              >
+                className="btn btn-category"
+                style="background-color: #16a34a">
                 Science
               </button>
             </li>
@@ -67,40 +63,42 @@
         </aside>
 
         <section>
-          <ul class="facts-list">
-            <li class="fact">
+          <ul className="facts-list">
+            <li className="fact">
               <p>
                 React is being developed by Meta (formerly facebook)
                 <a
-                  class="source"
+                  className="source"
                   href="https://opensource.fb.com/"
                   target="_blank"
                   >(Source)</a
                 >
               </p>
-              <span class="tag" style="background-color: #3b82f6"
+              <span className="tag" style="background-color: #3b82f6"
                 >technology</span
               >
-              <div class="vote-buttons">
+              <div className="vote-buttons">
                 <button>👍🏻 24</button>
                 <button>🤯 9</button>
                 <button>⛔️ 4</button>
               </div>
             </li>
-            <li class="fact">
+            <li className="fact">
               <p>
                 Millennial dads spend 3 times as much time with their kids than
                 their fathers spent with them. In 1982, 43% of fathers had never
                 changed a diaper. Today, that number is down to 3%
                 <a
-                  class="source"
+                  className="source"
                   href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
                   target="_blank"
                   >(Source)</a
                 >
               </p>
-              <span class="tag" style="background-color: #eab308">society</span>
-              <div class="vote-buttons">
+              <span className="tag" style="background-color: #eab308"
+                >society</span
+              >
+              <div className="vote-buttons">
                 <button>👍🏻 11</button>
                 <button>🤯 2</button>
                 <button>⛔️ 0</button>
